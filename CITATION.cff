@@ -22,6 +22,13 @@ authors:
 version: 0.1.0
 date-released: 2026-09-09
 license: MIT
+repository-code: "https://github.com/347s/IE-Code-Eval-Pipeline"
+keywords:
+  - IE-Code
+  - Edu-Eval
+  - educational large language model
+  - interactive HTML generation
+  - automated evaluation
 preferred-citation:
   type: article
   title: "Construction and Automated Evaluation of a Large Language Model for Interactive Teaching Content Generation"

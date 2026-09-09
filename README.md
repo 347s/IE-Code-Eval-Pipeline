@@ -4,6 +4,16 @@
 L1–L4 自动评估和反馈修复工具。代码采用 MIT License；公开仓库前请确认
 `data/README.md` 所述数据来源与再发布授权。
 
+## 项目资源
+
+- **模型：** [IE-code-30B（Hugging Face）](https://huggingface.co/Septend/IE-code-30B)
+- **评测集首发页：** [Edu-Eval（Science Data Bank）](https://www.scidb.cn/s/nA3aIb)
+- **评测代码与镜像：** 本仓库
+
+Edu-Eval 按《自动化学报》的数据发布要求首发于 Science Data Bank；仓库内的
+`data/edu_eval.jsonl` 为便于复现实验提供的评测集副本。引用或获取正式发布版本时，
+请优先使用上述 Science Data Bank 页面。
+
 ## 安装与运行
 
 建议在独立 Python 3.10+ 环境中运行：
@@ -80,3 +90,7 @@ python -m unittest discover -s tests -v
 
 若本仓库对研究有帮助，请使用 `CITATION.cff` 中的论文信息引用。论文 DOI：
 <https://doi.org/10.16383/j.aas.c260145>。
+
+使用评测集时，同时注明其首发地址：
+[Science Data Bank](https://www.scidb.cn/s/nA3aIb)；使用模型时注明模型地址：
+[Septend/IE-code-30B](https://huggingface.co/Septend/IE-code-30B)。

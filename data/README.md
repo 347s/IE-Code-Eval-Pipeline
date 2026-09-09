@@ -3,6 +3,18 @@
 `edu_eval.jsonl` contains 226 prompts for evaluating generation of interactive,
 self-contained educational HTML pages across Chinese K–12 curricula.
 
+## Official release and citation
+
+Edu-Eval was first released through
+[Science Data Bank](https://www.scidb.cn/s/nA3aIb) in accordance with the data
+publication requirements of *Acta Automatica Sinica*. The JSONL file in this
+repository is a convenience copy for reproducible evaluation. Cite the associated
+paper through the repository's `CITATION.cff` and include the Science Data Bank
+landing page when using the benchmark.
+
+The associated model is available as
+[Septend/IE-code-30B](https://huggingface.co/Septend/IE-code-30B) on Hugging Face.
+
 ## Coverage
 
 | Dimension | Counts |
@@ -43,7 +55,9 @@ controlled browser environment without personal accounts or sensitive files.
 
 The tasks were organized from K–12 curriculum metadata and transformed into
 interactive HTML generation instructions for the Edu-Eval benchmark. The code is
-MIT licensed. A software license does not automatically cover the dataset.
+MIT licensed. A software license does not automatically cover the dataset; consult
+the official Science Data Bank record for the authoritative release information
+and applicable data terms.
 
 Before making the GitHub repository public, the repository owner must confirm the
 right to redistribute the curriculum-derived fields and select a dataset license.
