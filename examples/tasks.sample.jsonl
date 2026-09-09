@@ -1,0 +1,1 @@
+{"id":"demo-001","status":"success","original_data":{"subject":"mathematics","stage":"demo"},"generated_prompt":"Create a self-contained HTML5 page that demonstrates how changing the coefficient a affects the parabola y = ax^2. Include a slider, a plotted curve, and a short explanation."}

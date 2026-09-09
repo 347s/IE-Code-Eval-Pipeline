@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interaction smoke test</title></head>
+<body><h1>Counter</h1><button id="increment">Add one</button>
+<output id="count">0</output><script>
+let count = 0;
+document.getElementById('increment').onclick = () => {
+  document.getElementById('count').textContent = String(++count);
+};
+</script></body></html>

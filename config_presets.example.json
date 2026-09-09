@@ -1,0 +1,22 @@
+{
+  "judge_mode": "unified",
+  "judge_base_url": "https://api.openai.com/v1",
+  "judge_model_name": "your-multimodal-judge-model",
+  "rl_mode": false,
+  "target_base_url": "http://localhost:8000/v1",
+  "target_model_name": "your-html-generator-model",
+  "target_temp": 0.7,
+  "target_top_p": 1.0,
+  "target_max_tokens": 16384,
+  "llm_retries": 3,
+  "llm_retry_delay": 15.0,
+  "llm_timeout": 600,
+  "high_quality_mode": false,
+  "strict_mode": true,
+  "static_mode": false,
+  "custom_weights": "{\"layer1\": 0.20, \"layer2\": 0.25, \"layer3\": 0.25, \"layer4\": 0.30}",
+  "output_base_dir": "evaluation_outputs",
+  "concurrency": 4,
+  "enable_resume": true
+}
+

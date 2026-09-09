@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use EduEval Pipeline or Edu-Eval, please cite the associated paper."
+title: "EduEval Pipeline and Edu-Eval"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Ruo-Hua
+  - family-names: Liu
+    given-names: Tao
+  - family-names: Lu
+    given-names: Ye
+  - family-names: Song
+    given-names: Si-Yu
+  - family-names: Liu
+    given-names: Wen-Tao
+  - family-names: Song
+    given-names: Yu
+  - family-names: Zhou
+    given-names: Ai-Min
+  - family-names: Hao
+    given-names: Hao
+version: 0.1.0
+date-released: 2026-09-09
+license: MIT
+preferred-citation:
+  type: article
+  title: "Construction and Automated Evaluation of a Large Language Model for Interactive Teaching Content Generation"
+  authors:
+    - family-names: Zhang
+      given-names: Ruo-Hua
+    - family-names: Liu
+      given-names: Tao
+    - family-names: Lu
+      given-names: Ye
+    - family-names: Song
+      given-names: Si-Yu
+    - family-names: Liu
+      given-names: Wen-Tao
+    - family-names: Song
+      given-names: Yu
+    - family-names: Zhou
+      given-names: Ai-Min
+    - family-names: Hao
+      given-names: Hao
+  journal: "Acta Automatica Sinica"
+  year: 2026
+  doi: "10.16383/j.aas.c260145"
